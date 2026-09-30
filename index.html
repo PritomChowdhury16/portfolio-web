@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pritom — Graphic Designer &amp; Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- ===== ENTRY / LOCK SCREEN ===== -->
+<div class="entry-screen" id="entryScreen">
+  <div class="door-half door-left">
+    <img src="door-art-left.jpg" alt="Left half of ornate Jaipur palace door" class="door-art-half door-art-half-left">
+  </div>
+  <div class="door-half door-right">
+    <img src="door-art-right.jpg" alt="Right half of ornate Jaipur palace door" class="door-art-half door-art-half-right">
+  </div>
+
+  <div class="keypad-panel" id="keypadPanel">
+    <p class="locker-eyebrow">Access required</p>
+    <div class="locker-display" id="lockerDisplay">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+    <div class="keypad">
+      <button class="key" data-key="1">1</button>
+      <button class="key" data-key="2">2</button>
+      <button class="key" data-key="3">3</button>
+      <button class="key" data-key="4">4</button>
+      <button class="key" data-key="5">5</button>
+      <button class="key" data-key="6">6</button>
+      <button class="key" data-key="7">7</button>
+      <button class="key" data-key="8">8</button>
+      <button class="key" data-key="9">9</button>
+      <button class="key key-muted" data-key="clear">C</button>
+      <button class="key" data-key="0">0</button>
+      <button class="key key-muted" data-key="back">⌫</button>
+    </div>
+    <p class="locker-hint" id="lockerHint">Enter the code to unlock (Press 12345)</p>
+  </div>
+</div>
+
+<!-- ===== PORTFOLIO ===== -->
+<div class="portfolio" id="portfolio">
+
+  <nav class="navbar">
+    <a href="#top" class="nav-logo">Pritom</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="nav-hire-mobile"><a href="#contact" class="btn-hire">Hire Me</a></li>
+    </ul>
+    <a href="#contact" class="btn-hire nav-hire-desktop">Hire Me</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <svg class="hero-motif motif-left" viewBox="0 0 120 120" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="1.2">
+        <circle cx="60" cy="60" r="6"></circle>
+        <g id="petalsL">
+          <path d="M60 60 C 60 30, 75 20, 60 5 C 45 20, 60 30, 60 60 Z"></path>
+        </g>
+        <use href="#petalsL" transform="rotate(45 60 60)"></use>
+        <use href="#petalsL" transform="rotate(90 60 60)"></use>
+        <use href="#petalsL" transform="rotate(135 60 60)"></use>
+        <use href="#petalsL" transform="rotate(180 60 60)"></use>
+        <use href="#petalsL" transform="rotate(225 60 60)"></use>
+        <use href="#petalsL" transform="rotate(270 60 60)"></use>
+        <use href="#petalsL" transform="rotate(315 60 60)"></use>
+        <circle cx="60" cy="60" r="30"></circle>
+      </g>
+    </svg>
+
+    <img src="your-photo.jpg" alt="Photo of Pritom" class="hero-photo" onerror="this.style.display='none'">
+    <p class="hero-eyebrow">Graphic Designer · Vibe Coder · AI Content Writer</p>
+    <h1>Pritom</h1>
+
+    <svg class="hero-divider" viewBox="0 0 100 20" aria-hidden="true">
+      <path d="M0 10 H35" stroke="currentColor" stroke-width="1"></path>
+      <path d="M50 2 C 44 2, 44 10, 50 10 C 56 10, 56 2, 50 2 Z M50 10 C 44 10, 44 18, 50 18 C 56 18, 56 10, 50 10 Z" fill="currentColor"></path>
+      <path d="M65 10 H100" stroke="currentColor" stroke-width="1"></path>
+    </svg>
+
+    <p class="hero-bio">Final-year CSE student and founder of Hack with AI, blending graphic design, vibe coding, and AI-driven content into work that looks as good as it performs.</p>
+    <a href="#projects" class="btn-outline">See My Work</a>
+
+    <svg class="hero-motif motif-right" viewBox="0 0 120 120" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="1.2">
+        <circle cx="60" cy="60" r="6"></circle>
+        <g id="petalsR">
+          <path d="M60 60 C 60 30, 75 20, 60 5 C 45 20, 60 30, 60 60 Z"></path>
+        </g>
+        <use href="#petalsR" transform="rotate(45 60 60)"></use>
+        <use href="#petalsR" transform="rotate(90 60 60)"></use>
+        <use href="#petalsR" transform="rotate(135 60 60)"></use>
+        <use href="#petalsR" transform="rotate(180 60 60)"></use>
+        <use href="#petalsR" transform="rotate(225 60 60)"></use>
+        <use href="#petalsR" transform="rotate(270 60 60)"></use>
+        <use href="#petalsR" transform="rotate(315 60 60)"></use>
+        <circle cx="60" cy="60" r="30"></circle>
+      </g>
+    </svg>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <div class="about-content">
+      <p>I'm in my final semester of a Computer Science and Engineering degree, standing at the intersection of design and development — a place most CSE students don't visit. Where a typical developer thinks in logic first, I think in layout, color, and story first, then build the system to support it.</p>
+      <p>My design toolkit runs through Midjourney and Google Flow, where I explore visual concepts before a single line of code exists. My development toolkit runs through C and C++, the languages my degree is built on, and Python, which I use for faster prototyping and my growing interest in computer vision.</p>
+      <p>That combination has shaped three real projects so far: a tourism website for Uttar Pradesh, a full business site for UMA Hair &amp; Beauty Spa, and ExamMate, an AI-powered exam-prep tool built on the Gemini API. Each one needed both a designer's eye and a developer's hands — which is exactly the kind of work I want to keep doing.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <div class="experience-grid">
+      <article class="exp-card">
+        <span class="exp-tag">Founder</span>
+        <div class="exp-thumb">HA</div>
+        <h3>Hack with AI</h3>
+        <p class="exp-org">Newsletter</p>
+        <p>Founded and write a newsletter covering AI tools, trends, and ideas for a growing reader base.</p>
+      </article>
+      <article class="exp-card">
+        <span class="exp-tag">Research</span>
+        <div class="exp-thumb">RP</div>
+        <h3>AI vs Human Brain</h3>
+        <p class="exp-org">Co-Author, Research Paper</p>
+        <p>Co-authored a research paper comparing artificial intelligence systems with human cognitive processes.</p>
+      </article>
+      <article class="exp-card">
+        <span class="exp-tag">Finalist</span>
+        <div class="exp-thumb">HK</div>
+        <h3>Hackathon Finalist</h3>
+        <p class="exp-org">Multiple Hackathons</p>
+        <p>Reached the final round in a hackathon and participated in several others across different themes.</p>
+      </article>
+      <article class="exp-card">
+        <span class="exp-tag">Recent</span>
+        <div class="exp-thumb">SA</div>
+        <h3>Samriddhi Air International</h3>
+        <p class="exp-org">Social Media Analyzer, Content &amp; Ad Designer</p>
+        <p>Worked with a travel agency analyzing social media performance and designing content and ad creatives.</p>
+      </article>
+      <article class="exp-card">
+        <span class="exp-tag">Current</span>
+        <div class="exp-thumb">CA</div>
+        <h3>CodeAlpha</h3>
+        <p class="exp-org">Graphics Designer — Internship</p>
+        <p>Currently interning as a graphics designer, creating visual assets and design work.</p>
+      </article>
+      <article class="exp-card">
+        <span class="exp-tag">Current</span>
+        <div class="exp-thumb">FR</div>
+        <h3>FlyRank</h3>
+        <p class="exp-org">Frontend Developer — Internship</p>
+        <p>Currently interning as a frontend developer, building and styling web interfaces.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Design</h3>
+        <ul>
+          <li>Graphic Design</li>
+          <li>Midjourney</li>
+          <li>Google Flow</li>
+          <li>Brand &amp; Layout Design</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Development</h3>
+        <ul>
+          <li>Vibe Coding</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>AI &amp; Content</h3>
+        <ul>
+          <li>AI Content Writing</li>
+          <li>Computer Vision Basics</li>
+          <li>Face Detection</li>
+          <li>OpenCV Fundamentals</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-thumb">UP</div>
+        <h3>Uttar Pradesh Tourism</h3>
+        <p class="project-lang">TypeScript</p>
+        <p>A tourism-focused website designed and built to showcase destinations, culture, and travel information for Uttar Pradesh.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/Uttar_Pradesh_Tourism-" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">UMA</div>
+        <h3>UMA Beauty Parlour Website</h3>
+        <p class="project-lang">TypeScript</p>
+        <p>An animated business website for a beauty parlour, covering services, branding, and an inviting visual identity.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/UMA-Beauty-Parlour-Animated-Website" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">DR</div>
+        <h3>Dronacharya AI Studybot</h3>
+        <p class="project-lang">TypeScript</p>
+        <p>An AI-powered exam-prep assistant built with the Gemini API to help students study more effectively.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/dronacharya-ai-studybot" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">CG</div>
+        <h3>Computer Graphics — Cricket Simulation</h3>
+        <p class="project-lang">C++</p>
+        <p>A 2D cricket game simulation built with OpenGL/GLUT for a Computer Graphics course final project.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/Computer-Graphics" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">LO</div>
+        <h3>Learning Orbit System</h3>
+        <p class="project-lang">TypeScript</p>
+        <p>Add a one-line description of this project here.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/learning-orbit-system" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">EL</div>
+        <h3>Elevatiai Landing</h3>
+        <p class="project-lang">TypeScript</p>
+        <p>Add a one-line description of this project here.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/elevatiai-landing" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">TM</div>
+        <h3>Simple Task Manager</h3>
+        <p class="project-lang">CSS</p>
+        <p>Add a one-line description of this project here.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/simple-task-manager" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb">AI</div>
+        <h3>AI Productivity Dashboard</h3>
+        <p class="project-lang">—</p>
+        <p>Add a one-line description of this project here.</p>
+        <a class="project-link" href="https://github.com/PritomChowdhury16/ai-productivity-dashboard" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Have a project in mind, or just want to say hi? Reach out.</p>
+    <div class="contact-links">
+      <a href="pritomchy2003@gmail.com">Email</a>
+      <a href="https://github.com/PritomChowdhury16" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/pritom-chowdhury-981b22298/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Get an email when I publish new projects and designs.</p>
+    <form class="newsletter-form" id="newsletterForm">
+      <input type="email" id="newsletterEmail" placeholder="you@example.com" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="newsletter-msg" id="newsletterMsg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Pritom. All rights reserved.</p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
